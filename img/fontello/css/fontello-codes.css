@@ -1,0 +1,4 @@
+
+.icon-location:before { content: '\6c'; } /* 'l' */
+.icon-mail-alt:before { content: '\6d'; } /* 'm' */
+.icon-volume-control-phone:before { content: '\70'; } /* 'p' */

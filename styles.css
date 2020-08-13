@@ -1,0 +1,390 @@
+/* OpenSans*/
+@font-face {
+    font-family: "Poppins";
+    font-display: swap;
+    font-style: bold;
+    font-weight: 600;
+    src: local("Poppins-Bold"),
+    url("fonts/Poppins/Poppins-Bold.ttf") format("ttf");
+
+}
+
+/* Poppins */
+@font-face {
+    font-family: "OpenSans" sans-serif;
+    font-size: 1.6rem;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: local("OpenSans-Regular"), local("OpenSans-Regular"),
+    url("fonts/OpenSans/OpenSans-Regular.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?64180294');
+    src: url('../font/fontello.eot?64180294#iefix') format('embedded-opentype'),
+         url('../font/fontello.svg?64180294#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+/* Responsive */
+body {
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: OpenSans, sans-serif; 
+    }
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins";
+    text-align: center;
+    color: #00252E;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    padding-bottom: 3.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    padding-bottom: 1.8rem;
+}
+
+.main-header {
+    background-image: url(img/HERO\ BG.svg);
+    padding-top: 4.8rem;
+    padding-bottom: 3.7rem;
+    padding-top: 2.7rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.logo {
+    max-width: 10.4em;
+}
+
+.header-cta {
+    color: #00252E;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0px .2rem .7rem #00000018;
+    border-radius: 1.2rem;
+    padding-top: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.hero {
+    color: #00252E;
+    padding-top: 8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.cta {
+    background-color: #FF52C1;
+    color: #fff;
+    border-radius: 2rem;
+    box-shadow: .2rem .3rem .6rem #FF52C1;
+    opacity: 1;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.hero-cta {
+    display: inline-block;
+    max-width: 24rem;
+    font-size: 1.2rem;
+    padding: 1rem 6rem;
+    margin-top: 3rem;
+    margin-bottom: 5.6rem;
+}
+
+.desktop {
+    max-width: 30rem;
+    margin: auto;
+}
+
+/* Main */
+
+.services p {
+    color: #808E9A;
+}
+
+.container{
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+}
+
+.card { 
+    background-color: #fff;
+    box-shadow: 0 0 1.6rem #0000001A;
+    min-width: 33.5rem;
+    border-radius: 1.6rem;
+    margin-bottom: 4rem;
+    padding: 5rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-img {
+    margin-bottom: 6rem;
+}
+
+
+/* Footer */
+
+/* Footer CTA */
+.main-footer {
+    margin-top: 23rem;
+    text-align: left;
+    padding-right: 1.6rem;
+    padding-bottom: 5rem;
+
+    position: relative;
+    background-color: #00252E;
+    color: #fff;
+}
+
+.box-cta {
+    text-align: left;
+    padding-top: 14rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+section:not(:last-child) {
+    margin-top: 5.5rem;
+}
+
+footer li {
+    padding-bottom: 2rem;
+}
+
+.call-to-action {
+    position: absolute; top: -15rem; left: 3%;
+    min-width: 35rem;
+    box-shadow: 0 0 1.6rem #0000001A;
+    border-radius: 1.6rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding: 4.1rem 1.2rem;
+    text-align: center;
+}
+
+.footer-cta {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1.5rem 5rem;
+    margin-top: 2.4rem;
+}
+
+
+/* Footer Contact */
+
+.logo-footer {
+    padding-bottom: 2.5rem;
+}
+
+/* Footer SocialMedia */
+
+.socialmedia ul {
+    display: flex;
+    flex-direction: row;        
+    padding-left: 0;
+    justify-content: center;
+}
+
+.socialmedia ul li:not(:last-child) {
+    padding-right: 2.3rem;
+}
+
+.socialmedia ul li {
+    list-style-type: none; 
+}
+
+.address:before {
+    
+}
+
+.phone:before {
+    ;
+}
+
+.mail:before {
+    ; 
+}
+
+
+/* Footer Copyright */
+
+.copyright {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+
+/* Tablette */
+@media screen and (min-width: 60rem) {
+   
+    /* Header */
+    
+    
+    
+    /* Main */
+    
+   
+    
+    /* Footer web */
+    
+    
+    }
+
+    /* Tablette */
+@media screen and (min-width: 96rem) {
+   body,
+   h1,
+   h3 {
+       text-align: left;
+       font-size: 1.8rem;
+   }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 2.8rem;
+    }
+
+    .cta {
+        font-size: 1.4rem;
+        border-radius: 10rem;
+    }
+
+    .header-cta {
+        padding: 1rem 4rem;
+        border-radius: 2rem;
+    }
+
+    .hero-cta {
+        padding: 1rem 5rem;
+    }
+
+    .footer-cta {
+        font-size:2rem;
+    }
+
+    /* Header */
+
+    .main-nav  {
+        padding-bottom: 7rem;
+    }
+    
+    .main-header {
+        padding-top: 6rem;
+        padding-bottom: 3.7rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .main-hero {
+        padding-left: 8.5rem;
+        padding-right: 8.5rem;
+    }
+
+    .main-hero,
+    .card,
+    .box-cta {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero {
+        max-width: 40%;
+    }
+
+    .desktop {
+        max-width: 60%;
+    }
+    
+    /* Main */
+    
+    .container {
+       align-self: center;
+    }
+
+    .card {
+        /* display: flex;
+        flex-direction: row; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .card-img {
+        max-width: 50%;
+        padding-left: 12rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .product .card-img,
+    .users .card-img {
+        order: 2;
+    }
+   
+    
+    /* Footer web */
+
+    .call-to-action {
+       left: 25%;
+       padding: 6rem 15rem;
+    }
+    
+    .box-cta,
+    .footer-nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .box-cta {
+        padding-top: 20rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .socialmedia {
+        align-self: center;
+    }
+
+    .copyright {
+        text-align: right;
+    }
+    
+    }
+    
