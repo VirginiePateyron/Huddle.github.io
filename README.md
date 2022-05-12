@@ -2,4 +2,4 @@
 
 I've integrated this landing page with HTML / CSS and responsive.
 
-![Landing page](challenge-4.png)
+<img src="challenge-4.png" alt="Landing page" width="2000" />
